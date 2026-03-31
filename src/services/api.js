@@ -2,7 +2,7 @@ import axios from "axios";
 
 // 👉 Replace with your real backend URL from Swagger
 const API = axios.create({
-  baseURL: "YOUR_API_BASE_URL",
+  baseURL: "https://student-management-system-backend.up.railway.app/api",
 });
 
 // Attach token automatically
